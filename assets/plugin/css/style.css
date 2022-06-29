@@ -273,6 +273,8 @@ h3.abs-label-text{
     width: 120px;
     display: inline-block;
     border: 2px solid rgb(2, 163, 75);
+    margin-left: -5px;
+    border-radius: 10px;
 }
 .content{
     max-width: 85%;
@@ -302,7 +304,7 @@ h3.abs-label-text{
         display: none;
         background-color: #fff;
         position: fixed;
-        top: 14.6%;
+        top: 5.5em;
         left: 0;
         box-shadow: 2px 5px 4px #ccc;
         height: 100%;
@@ -349,14 +351,19 @@ h3.abs-label-text{
     }
     .content{
         max-width: 100%;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.5);
+        /*background-color: white;*/
         border-radius: 20px;
         padding: 3em 2em;
     }
     .abs-heading{
         color: rgb(124, 253, 182)!important;
     }
-    .abs-text{color: white}
+    .abs-text{
+        color: white;
+        padding: 10px;
+        border-radius: 12px;
+        background-color: rgba(0, 0, 0, 0.7)}
 }
 @media screen and (max-width: 480px){
     .me-btn .icon{margin: 0!important;}
